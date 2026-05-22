@@ -16,8 +16,8 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="結合星級私廚與預防醫學，用一日三膳為您的大腦做頂級保養。">
-  <title>MIND 大腦賦能微食譜</title>
+  <meta name="description" content="結合星級私廚與營養科學，以一日三膳落實大腦友善飲食概念。">
+  <title>MIND 大腦日常飲食食譜</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@300;400;500;700&display=swap"
@@ -1432,7 +1432,7 @@
       }
 
       .badge {
-        font-size: 18px;
+        font-size: 20px;
         padding: 6px 14px
       }
 
@@ -1749,7 +1749,7 @@
     <div class="nav-pw">
       <div class="nav-pb" id="pbar" style="width: 0%;"></div>
     </div>
-    <a class="nav-cta" id="navCta" href="javascript:void(0)" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})">預約評估</a>
+    <a class="nav-cta" id="navCta" href="javascript:void(0)" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})">預約諮詢</a>
   </nav>
 
   <!-- ══ Hero ══ -->
@@ -1767,26 +1767,26 @@
     </div>
     <div class="ed-block" draggable="true">
 
-      <span class="hero-tag" spellcheck="false">✦ 預防醫學私廚提案</span>
+      <span class="hero-tag" spellcheck="false">✦ 營養科學私廚提案</span>
     </div>
     <div class="ed-block" draggable="true">
 
       <h1 class="hero-title">
         <span spellcheck="false" class=""
           style="font-family: 'Chiron GoRound TC', sans-serif;">吃出<em>清晰&nbsp;</em>好思緒</span><br>
-        <span spellcheck="false" class="" style="font-family: 'Chiron GoRound TC', sans-serif;">MIND大腦賦能微食譜</span>
+        <span spellcheck="false" class="" style="font-family: 'Chiron GoRound TC', sans-serif;">MIND大腦日常飲食食譜</span>
       </h1>
     </div>
     <div class="ed-block" draggable="true">
 
-      <p class="hero-sub" spellcheck="false">結合星級私廚與預防醫學，用「一日三膳」為您的大腦做最頂級的日常保養</p>
+      <p class="hero-sub" spellcheck="false">結合星級私廚與營養科學，以「一日三膳」落實大腦友善飲食概念</p>
     </div>
     <div class="hero-badges ed-block" draggable="true">
 
       <span class="badge badge-gold" spellcheck="false">🧠 認知表現優化</span>
       <span class="badge badge-green" spellcheck="false">🌿 抗氧化支持</span>
       <span class="badge badge-gold" spellcheck="false">✨ 高端私廚美學</span>
-      <span class="badge badge-green" spellcheck="false">🔬 預防醫學實踐</span>
+      <span class="badge badge-green" spellcheck="false">🔬 營養科學實踐</span>
     </div>
   </header>
 
@@ -2054,14 +2054,15 @@
        
     </div>
     <div class="ed-block" draggable="true">
+      <p style="font-size:13px;color:var(--text-s);line-height:1.7;margin-bottom:1rem;">本服務由具備專業背景之飲食顧問提供個人化食譜建議，不涉及疾病診斷、藥物建議或醫療處置。</p>
       <button class="ed-btn" id="btn-main"
-        onclick="window.open('https://forms.gle/SKWdXAvQiE2BVLzZA', '_blank')">預約大腦健康與 APOE 基因解碼評估 →</button>
+        onclick="window.open('https://forms.gle/SKWdXAvQiE2BVLzZA', '_blank')">預約飲食諮詢與 APOE 基因解碼 →</button>
       <button class="btn-sec" id="btn-share" onclick="shareMe()">分享此頁面</button>
     </div>
   </section>
 
   <div class="disclaimer">
-    <p><strong>重要聲明：</strong>本食譜及相關建議（包含樂樂籟® 益生菌）均為日常保健與營養支持之參考資訊，無法用於診斷、治療或改善任何特定神經系統疾病或醫療狀況。如您有任何健康疑慮，請諮詢醫療人員。</p>
+    <p><strong>重要聲明：</strong>本網站提供之飲食資訊及食譜內容僅供參考，屬一般性飲食建議，非醫療行為，不取代專業醫療診斷或治療建議。如有健康疑慮，請諮詢合格醫療人員。本食譜及相關建議（包含樂樂籟® 益生菌）無法用於診斷、治療或改善任何特定疾病。</p>
   </div>
 
 
@@ -2083,7 +2084,7 @@
     /* GA4 bridge */
     (function () { var id = localStorage.getItem('_mind_ga4'); if (!id || !id.startsWith('G-')) return; var s = document.createElement('script'); s.async = true; s.src = 'https://www.googletagmanager.com/gtag/js?id=' + id; document.head.appendChild(s); window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } window.gtag = gtag; gtag('js', new Date()); gtag('config', id); })();
     /* Share button */
-    function shareMe() { if (navigator.share) navigator.share({ title: 'MIND 大腦賦能微食譜', url: location.href }); else navigator.clipboard && navigator.clipboard.writeText(location.href).then(function () { alert('連結已複製 ✨'); }); }
+    function shareMe() { if (navigator.share) navigator.share({ title: 'MIND 大腦日常飲食食譜', url: location.href }); else navigator.clipboard && navigator.clipboard.writeText(location.href).then(function () { alert('連結已複製 ✨'); }); }
     var shareBtn = document.getElementById('btn-share'); if (shareBtn) shareBtn.addEventListener('click', shareMe);</script>
 </body>
 
